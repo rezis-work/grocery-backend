@@ -68,9 +68,9 @@
     },
     "user_carts": {
       "type": "relation",
-      "relation": "manyToMany",
+      "relation": "oneToMany",
       "target": "api::user-cart.user-cart",
-      "mappedBy": "users_permissions_users"
+      "mappedBy": "users_permissions_user"
     }
   }
 }
